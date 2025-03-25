@@ -55,7 +55,7 @@ changelog:
 
 brews:
   - repository:
-      owner: nakabonne
+      owner: italovalcy
       name: homebrew-ali
     homepage: 'https://github.com/nakabonne/ali'
     description: 'Generate HTTP load and plot the results in real-time'
