@@ -33,7 +33,7 @@ builds:
 archives:
   -
     name_template: >-
-      {{- if eq .Arch "a386" }}32-bit
+      {{- if eq .Arch "386" }}32-bit{{ end -}}
 
 checksum:
   name_template: 'checksums.txt'
