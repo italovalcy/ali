@@ -31,8 +31,9 @@ builds:
         goarch: arm64
 
 archives:
-- replacements:
-    386: 32-bit
+  -
+    name_template: >-
+      {{- if eq .Arch "a386" }}32-bit
 
 checksum:
   name_template: 'checksums.txt'
