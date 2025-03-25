@@ -16,7 +16,7 @@ jobs:
         with:
           go-version: '1.18'
       - name: Login docker.io
-        run: docker login -u nakabonne -p ${{ secrets.DOCKER_PASSWORD }}
+        run: docker login -u italovalcy -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
         with:
